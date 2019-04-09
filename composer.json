@@ -1,0 +1,6 @@
+{
+    "name": "vendor/twig",
+    "require": {
+        "twig/twig": "^1.38"
+    }
+}

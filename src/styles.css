@@ -1,0 +1,98 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+.nav{
+    position:fixed;
+    background:violet;
+    min-height:80px;
+    width:91%;
+    z-index:20;
+    top:0px;
+}
+
+.content{
+    margin-top:120px;
+    margin-bottom:20px;
+    margin-left:20vw;
+}
+
+.card{
+    background:black;
+    border:solid 10px purple;
+    border-radius:10%;
+}
+
+img{
+    margin-top:30px;
+}
+
+.body{
+    background:purple;
+}
+
+
+HTML  SCSS  JS Result
+EDIT ON
+ ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  z-index:221 !important;
+}
+html,
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.thumb {
+  z-index:221 !important;
+  width: 68px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cat.gif"),
+    linear-gradient(
+      90deg,
+      transparent,
+      magenta,
+      red,
+      yellow,
+      limegreen,
+      turquoise,
+      blue,
+      magenta,
+      transparent
+    );
+  background-position: center bottom, center -40px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+}
+
+.cat{
+    margin-top:60px;
+    margin-bottom:-100px;
+}
+
+.pcat{
+    font-family: pacifico;
+    font-size:20px;
+    color:yellow;
+    margin-bottom:20px;
+}
+
+.card-text{
+    margin-bottom:40px;
+}
+
+.pcat2{
+    font-family: pacifico;
+    font-size:20px;
+    color:white;
+}
+
+.pcat3{
+    font-family: pacifico;
+    font-size:45px;
+    color:black;
+    border-bottom:solid 5px black;
+}

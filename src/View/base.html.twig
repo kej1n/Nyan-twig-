@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    {% block stylesheet %}
+    {% endblock %}
+</head>
+
+<body class="body glider-scrollable overflow">
+
+<nav class="navbar navbar-expand-lg nav">
+  <a class="navbar-brand pcat3" href="#">The nyan project !</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  </div>
+</nav>
+<div class="container content">
+    <div class="row">
+        {% block content %}{% endblock %}
+    </div>
+    <div class="cat">
+    <p class="pcat2">
+    On April 5th, 2011, YouTuber saraj00n posted a video titled "Nyan Cat"[3], using comic artist prguitarman's Pop-Tart Cat animation set to the well-known Japanese Vocaloid song Nyanyanyanyanyanyanya by Japanese artist Daniwell-P looping in the background, Although the song had been originally composed for Hatsune Miku to sing, The version used in the video was of the cover sung by the Utauloid Momo Momone. The video (shown below) gained more than one million views in its first two weeks
+    On April 10th, the Nyan Cat video was picked up by popular blogs and social networking sites, including Memebase,[4] BuzzFeed, [5] Tumblr, [6] and Facebook [7] among others.
+
+On April 12th, the Tosh.0 blog [8] posted the Nyan Cat video, as did CollegeHumor [9] and G4TV.[10] There are several remixes and spinoff variations of the original video circulating on YouTube, many of them customized with alternative characters and background music.
+
+Nyan Cat has been also briefly seen on Sprint's Nexus 4G "Cats" commercial[16], which featured a number of popular cat video clips.
+YouTuber xDaZJMx[11] commented on the original Nyan cat video by saraj00n telling viewers to watch Slipknot’s Psychosocial (muted) with the Nyan cat song playing in the background. The comment instructed other YouTubers to play the Nyan Cat video and hardcore rock band Slipknot's "Psychosocial" music video simultaneously in sync, which virtually resulted in a Nyan Cat audio dub (mirror below, left).
+
+xDaZJMx's instruction quickly gained hundreds of likes, was featured as the highest comment, and many users began flooding the Psychosocial video’s comments[12] with Nyans. As of April 26th, 2011, Slipknot's "Psychosocial" music video page on YouTube has over 111,000 comments, with tens of thousands reading "NYANNYANYANYANYANYANYANYANYANYANYANYANYA" (example below, right). This caused confusion among Slipknot listeners, and further spread the Nyan cat meme.
+On Sunday, May 29th, the PBS website was hacked by the group "LulzSec", and several of the website properties were defaced with Nyan Cat related images. The group claims the hack was a reaction to the Frontline episode called "Wikisecrets", that some felt was biased against Wikileaks. LulzSec released the following statement explaining the motivations behind the hack:
+
+Greetings, Internets. We just finished watching WikiSecrets and were less than impressed. We decided to sail our Lulz Boat over to the PBS servers for further… perusing. As you should know by now, not even that fancy-ass fortress from the third shitty Pirates of the Caribbean movie (first one was better!) can withhold our barrage of chaos and lulz. Anyway, unnecessary sequels aside… wait, actually: second and third Matrix movies sucked too! Anyway, say hello to the insides of the PBS servers, folks. They best watch where they're sailing next time.[17]
+
+On May 30th, 2011, LulzSec tweeted a link to a pastebin post saying that PBS was not hacked by SQL, but rather a "0day we discovered in mt4 aka MoveableType 4".[18][19]
+On June 16th, 2011, YouTube enabled a custom flash player for the original Nyan Cat video that showed an animated mini Nyan Cat flying across the progress bar with a rainbow trail. A screen shot was posted to Reddit[21] the same day. On 5th of July 2011, YouTube made a global update on video player user interface and to everyone's disappointment the Nyan Cat custom progress bar was permanently removed.
+
+Also quite remarkable are the efforts made by some developers to recreate YouTube's progress bar and integrate it to different operating systems as a fancy replacement for some user interface elements. On June 24th, 2011 InstantElevatorMusic (@instantelevator) released Nyan Cat Progress Bar, a modification for Windows default progress bars.[24]
+
+Also, on 19th of July 2011, Nikos Lykousas (@dummydev) released NyanSliders for jailbroken apple devices, a tweak which aims at replacing any slider in iOS with an animating Nyan Cat leaving rainbow trail, just like the original YouTube progress bar.[25][26]
+On the evening of November 1st, 2012, Chris Torres tweeted out a series of messages, telling the story of Marty's life. In December 2010, he adopted the gray cat along with a brown and white cat he named Buster, after Buster Bluth from the comedy series Arrested Development. Soon after the two were adopted, Buster was diagnosed with Feline infectious peritonitis, a disease that attacks the animal's white blood cells, and passed away soon after. In late October 2012, Marty was diagnosed with the same disease and his condition quickly worsened. At approximately 9pm on November 1st, Marty passed away in Torres' arms. The default animation on Nyan.cat was changed to Sad Nyan Cat, showing the Pop-Tart Cat with his eyes closed and without his rainbow.
+    </p>
+    </div>
+</div>
+
+<div>
+    <iframe src="../1s.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+   <audio autoplay loop  id="playAudio">
+        <source src="../izi.mp3">
+    </audio> 
+</div>
+
+{% block javascript %}
+{% endblock %}
+
+</body>
+</html>
